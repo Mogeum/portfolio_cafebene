@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이벤트</title>
+  
+  <link rel="stylesheet" href="../css/reset.css">  
+
+  <link href="https://webfontworld.github.io/pretendard/Pretendard.css" rel="stylesheet">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/sub-common.css">
+  <link rel="stylesheet" href="../css/sub5-1.css">
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="inner">
+      <h1 class="logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></h1>
+      <nav class="gnb">
+        <ul>
+          <li class="depth1"><a href="../sub/sub1-1.html">CAFFEBENE</a>
+            <ul class="depth2">
+              <li><a href="../sub/sub1-1.html">브랜드 스토리</a></li>
+              <li><a href="../sub/sub1-1.html">베네캣 스토리</a></li>
+              <li><a href="../sub/sub1-1.html">카페베네 원두</a></li>
+              <li><a href="../sub/sub1-1.html">카페베네 소식</a></li>
+              <li><a href="../sub/sub1-1.html">매거진</a></li>
+            </ul>
+          </li>
+          <li class="depth1"><a href="../sub/sub2-1.html">MENU</a>
+            <ul class="depth2">
+              <li><a href="../sub/sub2-1.html">신메뉴</a></li>
+              <li><a href="../sub/sub2-1.html">커피</a></li>
+              <li><a href="../sub/sub2-1.html">음료</a></li>
+              <li><a href="../sub/sub2-1.html">푸드</a></li>
+              <li><a href="../sub/sub2-1.html">MD상품</a></li>
+              <li><a href="../sub/sub2-1.html">Retail</a></li>
+              </ul>
+          </li>
+          <li class="depth1"><a href="../sub/sub3-1.html">STORE</a>
+            <ul class="depth2">
+              <li><a href="../sub/sub3-1.html">국내</a></li>
+              <li><a href="../sub/sub3-1.html">해외</a></li>
+            </ul>
+          </li>
+          <li class="depth1"><a href="../sub/sub4-1.html">GLOBAL</a>
+            <ul class="depth2">
+              <li><a href="../sub/sub4-1.html">해외매장안내</a></li>
+              <li><a href="../sub/sub4-1.html">해외사업소개</a></li>
+              <li><a href="../sub/sub4-1.html">해외가맹&유통문의</a></li>
+            </ul>
+          </li>
+          <li class="depth1"><a href="../sub/sub5-1.html">CONTENT</a>
+            <ul class="depth2">
+              <li><a href="../sub/sub5-1.html">커피</a></li>
+              <li><a href="../sub/sub5-1.html">우리동네</a></li>
+              <li><a href="../sub/sub5-1.html">사람들</a></li>
+              <li><a href="../sub/sub5-1.html">메뉴</a></li>
+              <li><a href="../sub/sub5-1.html">이벤트</a></li>
+              <li><a href="../sub/sub5-1.html">매장</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="tnb">
+        <ul class="tnb-login">
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">로그아웃</a></li>
+        </ul>
+        <a href="#" class="tnb-lan">언어설정</a>
+      </div>
+      <div class="mobile">
+        <button class="mobile-btn">
+          <span class="xi-bars"></span>
+        </button>
+        <div class="mobile-wrap">
+          <a href="#" class="mobile-founded"><span>가맹문의</span></a>
+          <div class="mobile-tnb">
+            <ul class="mobile-tnb-login">
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">로그아웃</a></li>
+            </ul>
+            <a href="#" class="mobile-tnb-lan">언어설정</a>
+          </div>
+          <div class="mobile-gnb">
+            <ul>
+              <li class="mobile-depth1"><a href="../sub/sub1-1.html">CAFFEBENE</a>
+                <ul class="mobile-depth2 view">
+                  <li><a href="../sub/sub1-1.html">브랜드 스토리</a></li>
+                  <li><a href="../sub/sub1-1.html">베네캣 스토리</a></li>
+                  <li><a href="../sub/sub1-1.html">카페베네 원두</a></li>
+                  <li><a href="../sub/sub1-1.html">카페베네 소식</a></li>
+                  <li><a href="../sub/sub1-1.html">매거진</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="../sub/sub2-1.html">MENU</a>
+                <ul class="mobile-depth2">
+                  <li><a href="../sub/sub2-1.html">신메뉴</a></li>
+                  <li><a href="../sub/sub2-1.html">커피</a></li>
+                  <li><a href="../sub/sub2-1.html">음료</a></li>
+                  <li><a href="../sub/sub2-1.html">푸드</a></li>
+                  <li><a href="../sub/sub2-1.html">MD상품</a></li>
+                  <li><a href="../sub/sub2-1.html">Retail</a></li>
+                  </ul>
+              </li>
+              <li class="mobile-depth1"><a href="../sub/sub3-1.html">STORE</a>
+                <ul class="mobile-depth2">
+                  <li><a href="../sub/sub3-1.html">국내</a></li>
+                  <li><a href="../sub/sub3-1.html">해외</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="../sub/sub4-1.html">GLOBAL</a>
+                <ul class="mobile-depth2">
+                  <li><a href="../sub/sub4-1.html">해외매장안내</a></li>
+                  <li><a href="../sub/sub4-1.html">해외사업소개</a></li>
+                  <li><a href="../sub/sub4-1.html">해외가맹&유통문의</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="../sub/sub5-1.html">CONTENT</a>
+                <ul class="mobile-depth2">
+                  <li><a href="../sub/sub5-1.html">커피</a></li>
+                  <li><a href="../sub/sub5-1.html">우리동네</a></li>
+                  <li><a href="../sub/sub5-1.html">사람들</a></li>
+                  <li><a href="../sub/sub5-1.html">메뉴</a></li>
+                  <li><a href="../sub/sub5-1.html">이벤트</a></li>
+                  <li><a href="../sub/sub5-1.html">매장</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="container" class="container">
+    <div class="visual">
+      <h3 class="visual-tit">이벤트</h3>
+    </div>
+    <div class="inner">
+      <div class="page-tab">
+        <a href="/sub/sub5-1.html">전체</a>
+        <a href="/sub/sub5-1.html">커피</a>
+        <a href="/sub/sub5-1.html">우리동네</a>
+        <a href="/sub/sub5-1.html">사람들</a>
+        <a href="/sub/sub5-1.html">메뉴</a>
+        <a href="/sub/sub5-1.html">이벤트</a>
+        <a href="/sub/sub5-1.html">매장</a>
+      </div>
+      <form class="sch-form">
+        <fieldset class="sch-form-select">
+          <div class="sch-form-select-tit">
+            <em>전체</em>
+          </div>
+          <ul class="sch-form-select-list">
+            <li>전체</li>
+            <li>제목</li>
+            <li>내용</li>
+          </ul>
+        </fieldset>
+        <fieldset class="sch-form-btn">
+          <legend class="hide">검색하기</legend>
+          <input type="text" placeholder="검색어를 입력해주세요" id="event-list">
+          <button type="button">
+            <i class="xi-search"></i>
+          </button>
+        </fieldset>
+      </form>
+      <ul class="event-list">
+        <li>
+          <a href="#" class="event-list-box">
+            <div class="event-list-box-txt">
+              <em class="event-list-box-txt-catrgory">이벤트</em>
+             <strong class="event-list-box-txt-tit">SWEET DAY 이벤트</strong>
+            </div>
+            <figure class="event-list-box-img"><img src="../img/sub5-1-event-img1.png" alt=""></figure>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="event-list-box">
+            <div class="event-list-box-txt">
+              <em class="event-list-box-txt-catrgory">이벤트</em>
+             <strong class="event-list-box-txt-tit">종료/겨울 신메뉴 출시 이벤트</strong>
+            </div>
+            <figure class="event-list-box-img"><img src="../img/sub5-1-event-img2.png" alt=""></figure>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="event-list-box">
+            <div class="event-list-box-txt">
+              <em class="event-list-box-txt-catrgory">이벤트</em>
+             <strong class="event-list-box-txt-tit">종료/가을 신메뉴 출시 이벤트</strong>
+            </div>
+            <figure class="event-list-box-img"><img src="../img/sub5-1-event-img3.png" alt=""></figure>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="event-list-box">
+            <div class="event-list-box-txt">
+              <em class="event-list-box-txt-catrgory">이벤트</em>
+             <strong class="event-list-box-txt-tit">종료/여름 프리퀀시 이벤트</strong>
+            </div>
+            <figure class="event-list-box-img"><img src="../img/sub5-1-event-img4.png" alt=""></figure>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="event-list-box">
+            <div class="event-list-box-txt">
+              <em class="event-list-box-txt-catrgory">이벤트</em>
+             <strong class="event-list-box-txt-tit">종료/콜드브루 프리퀀시 이벤트</strong>
+            </div>
+            <figure class="event-list-box-img"><img src="../img/sub5-1-event-img5.png" alt=""></figure>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="event-list-box">
+            <div class="event-list-box-txt">
+              <em class="event-list-box-txt-catrgory">이벤트</em>
+             <strong class="event-list-box-txt-tit">종료/딸기 신메뉴 프리퀀시 이벤트</strong>
+            </div>
+            <figure class="event-list-box-img"><img src="../img/sub5-1-event-img6.png" alt=""></figure>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="event-list-box">
+            <div class="event-list-box-txt">
+              <em class="event-list-box-txt-catrgory">이벤트</em>
+             <strong class="event-list-box-txt-tit">종료/베네 랜선 홈파티 이벤트 당첨자 발표</strong>
+            </div>
+            <figure class="event-list-box-img"><img src="../img/sub5-1-event-img7.png" alt=""></figure>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="event-list-box">
+            <div class="event-list-box-txt">
+              <em class="event-list-box-txt-catrgory">이벤트</em>
+             <strong class="event-list-box-txt-tit">종료/2021년 겨울 이벤트</strong>
+            </div>
+            <figure class="event-list-box-img"><img src="../img/sub5-1-event-img8.png" alt=""></figure>
+          </a>
+        </li>
+      </ul>
+      <div class="event-more"><a href="#" class="event-more"><span>컨텐츠 더보기 <i class="xi-arrow-right"></i></span></a></div>
+    </div>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="inner">
+      <h2 class="f-logo">로고</h2>
+      <div class="f-sns">
+        <a href="#"><i class="xi-instagram"></i></a>
+        <a href="#"><i class="xi-facebook"></i></a>
+        <a href="#"><i class="xi-youtube"></i></a>
+      </div>
+      <div class="f-content-wrap">
+        <ul class="f-menu">
+          <li><a href="#">오시는 길</a></li>
+          <li><a href="#">제휴문의</a></li>
+          <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#"><em>고객센터 1688-4666</em></a></li>
+        </ul>
+        <div class="f-addr">
+          <address>경기도 양주시 백석읍 권율로1203번길 8-13, 2층</address>
+          <span>대표이사 : 박그레타</span>
+          <ul class="f-addr-number">
+            <li><span>사업자등록번호</span>206-86-29161</li>
+            <li>benecs@caffebene.co.kr</li>
+          </ul>
+          <p class="f-copy">Copyright© by Caffebene, All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer> 
+  <script src="../js/layout.js"></script>
+  <script src="../js/sub5-1.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* COMMON - S */
+*{box-sizing: border-box;}
+/* *::after , *::after{box-sizing: border-box;} */
+.hide {
+  width: 0;height: 0; overflow: hidden;
+  font-size: 0; line-height: 0; text-indent: -9999px;
+  position: absolute; left: -9999px;
+}
+/* .clearfix::after{content: ""; display: block; clear: both;} */
+img {vertical-align: top;/* display:block */}
+a {text-decoration: none; color: inherit;}
+body{
+  word-break: keep-all;  -webkit-text-size-adjust : 100%;  -webkit-font-smoothing : antialiased;
+  font-family: 'Pretendard', dotum, sans-serif; 
+  letter-spacing: -1px;
+}
+.inner{margin: 0 5%}
+section{margin-top: 100px;}
+.more{
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  background-color: #273658;
+  position: absolute
+}
+.more i{
+  margin-left: 3px;
+  font-size: 24px; line-height: 30px; color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+/* COMMON - E */
